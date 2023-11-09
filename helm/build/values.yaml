@@ -1,0 +1,15 @@
+app:
+  name: uthdemoforrabo-wind-turbine-app
+  namespace: uthdemoforrabo
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/uthdemoforrabo-wind-turbine
+  org: WindTurbineInc
+  name: uthdemoforrabo-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: uthdemoforrabo/wind-turbine-app
+  tag: latest
